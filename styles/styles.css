@@ -17,6 +17,10 @@ p {
   font-size: 20px;
   color: #e0218a;
 }
+footer {
+  padding-top: 15px;
+  font-size: 10px;
+}
 
 .card.main {
   padding-left: 3em;
@@ -72,7 +76,6 @@ p {
   margin-bottom: 1em;
   border-radius: 30px;
   border-style: none;
-  
 }
 .input-submit-search:hover {
   color: #e0218a;
@@ -82,7 +85,6 @@ p {
   transition: all 150ms ease-in-out;
 }
 .input-submit {
-  
   border-radius: 30px;
   border-style: none;
   color: #e0218a;
@@ -116,4 +118,7 @@ p {
   cursor: pointer;
   text-decoration: underline;
   color: #e0218a;
+}
+.git-link {
+  color: white;
 }
