@@ -1,0 +1,119 @@
+body {
+  text-align: center;
+  padding: 1em 10em;
+  font-family: "Mali", cursive;
+  background-color: #fb90b7;
+  color: white;
+  margin: 1em 15em;
+}
+h1 {
+  font-family: "Berkshire Swash", cursive;
+  color: white;
+  font-size: 3em;
+  padding-bottom: 0;
+}
+
+p {
+  font-size: 20px;
+  color: #e0218a;
+}
+
+.card.main {
+  padding-left: 3em;
+  padding-right: 1em;
+  color: white;
+  font-weight: 800;
+  border: 0;
+  background-color: #fb90b7;
+}
+
+.mainInfo {
+  margin-left: 3px;
+}
+
+.mainTemperature {
+  font-size: 36px;
+  color: #e0218a;
+}
+.condition {
+  font-size: 25px;
+  line-height: 10px;
+  color: #e0218a;
+}
+.wind {
+  font-size: 20px;
+  padding-top: 10px;
+}
+.humidity {
+  font-size: 20px;
+}
+.date {
+  font-size: 18px;
+  color: #e0218a;
+  padding-bottom: 20px;
+}
+.col {
+  margin-top: 25px;
+  font-weight: 500;
+}
+.input-text {
+  margin-bottom: 1em;
+  border-radius: 30px;
+  border-style: none;
+  text-align: center;
+  padding: 8px 50px;
+  outline: none;
+}
+.input-submit-search {
+  cursor: pointer;
+  color: white;
+  background-color: #e0218a;
+  padding: 1em 1em;
+  margin-bottom: 1em;
+  border-radius: 30px;
+  border-style: none;
+  
+}
+.input-submit-search:hover {
+  color: #e0218a;
+  background-color: white;
+  font-weight: 800;
+
+  transition: all 150ms ease-in-out;
+}
+.input-submit {
+  
+  border-radius: 30px;
+  border-style: none;
+  color: #e0218a;
+  background-color: white;
+  font-weight: 800;
+  padding: 1em 1em;
+  margin-bottom: 1em;
+  transition: all 150ms ease-in-out;
+}
+.input-submit:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #e0218a;
+}
+.main-temperature-c {
+  color: #e0218a;
+  text-decoration: none;
+}
+
+.main-temperature-c:hover {
+  cursor: pointer;
+  text-decoration: underline;
+
+  color: #e0218a;
+}
+.main-temperature-f {
+  color: #e0218a;
+  text-decoration: none;
+}
+.main-temperature-f:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #e0218a;
+}
